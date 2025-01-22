@@ -1,12 +1,18 @@
-# Speedport-Smart-4-reconnect-script
-Reconnect script for Speedport Smart 4 router - Jdownloader compatible
+## Instructions
 
-Intructions:
+### Step 1: Install Python
+Make sure Python 3.x is installed (in my case 3.12.4).
 
-1. Make sure python 3.x is installed (in my case 3.12.4)
-2. Change your password under the config section in ReconnectSpeedport.py
-   
-4. For Reconnect method in Jdownloader Choose external batch-reconnect
-5. For Interpreter choose python
-6. For batch-script select the path to the ReconnectSpeedport.py
-7. Enjoy.
+### Step 2: Configure your router password
+Change your password under the config section in `ReconnectSpeedport.py`:
+
+![Set your router password](./assets/passsetup.png)
+
+### Step 3: Configure JDownloader
+- Choose **External Batch-Reconnect**.
+- For Interpreter, choose `python`.
+- For the Batch-Script, select the path to `ReconnectSpeedport.py`.
+
+![JDownloader settings](./assets/Jdownloadsetup.png)
+
+### Step 4: Enjoy :)
