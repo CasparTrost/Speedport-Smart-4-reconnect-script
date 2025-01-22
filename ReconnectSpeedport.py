@@ -83,10 +83,9 @@ async def main():
     args = get_arguments()
     set_logger(args)
     
-    # Direkt festgelegtes Passwort
     password = device_password  
     timeout = aiohttp.ClientTimeout(total=5)
-    # Initialisiere das Speedport-Objekt
+    # Initialise Speedport-Objekt
     async with Speedport(args["host"], password, args.get("https")) as speedport:
         await reconnect(args, speedport)
 
