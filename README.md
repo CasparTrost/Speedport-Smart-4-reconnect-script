@@ -2,7 +2,7 @@
 
 ### Step 1: Install Python
 Make sure Python 3.x is installed (in my case 3.12.4).
-## Step 1.1: Installation Dependencies
+#### Step 1.1: Installation Dependencies
 Install Speedport API with: pip install speedport-api
 ### Step 2: Configure your router password
 Change your password under the config section in `ReconnectSpeedport.py`:
